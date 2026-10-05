@@ -37,7 +37,7 @@ metadata:
 subjects:
   - kind: ServiceAccount
     name: aiops-agent
-    namespace: prod
+    namespace: dev
 roleRef:
   kind: ClusterRole
   name: aiops-agent-role
