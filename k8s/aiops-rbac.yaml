@@ -4,7 +4,7 @@ apiVersion: v1
 kind: ServiceAccount
 metadata:
   name: aiops-agent
-  namespace: prod
+  namespace: dev
   annotations:
     eks.amazonaws.com/role-arn: arn:aws:iam::304312474711:role/aiops-agent-role
 ---
