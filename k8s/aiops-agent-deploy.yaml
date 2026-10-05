@@ -5,7 +5,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: aiops-agent
-  namespace: prod
+  namespace: dev
   labels:
     app: aiops-agent
 spec:
