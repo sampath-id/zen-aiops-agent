@@ -21,7 +21,7 @@ spec:
       serviceAccountName: aiops-agent
       containers:
         - name: agent
-          image: 304312474711.dkr.ecr.us-east-1.amazonaws.com/aiops-agent:latest
+          image: 236726878226.dkr.ecr.us-east-1.amazonaws.com/aiops-agent:latest
           imagePullPolicy: Always
           ports:
             - containerPort: 8000
