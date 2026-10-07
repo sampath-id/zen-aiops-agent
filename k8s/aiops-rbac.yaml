@@ -6,7 +6,7 @@ metadata:
   name: aiops-agent
   namespace: dev
   annotations:
-    eks.amazonaws.com/role-arn: arn:aws:iam::304312474711:role/aiops-agent-role
+    eks.amazonaws.com/role-arn: arn:aws:iam::236726878226:role/aiops-agent-role
 ---
 # ClusterRole — what the agent is allowed to do
 apiVersion: rbac.authorization.k8s.io/v1
